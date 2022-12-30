@@ -1,0 +1,20 @@
+{
+  "domain": "boschtt",
+  "name": "Bosch Thermotechnology",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/boschtt",
+  "requirements": [
+    "pyboschtt @ git+https://github.com/ksjoberg/pyBoschtt.git@master"
+  ],
+  "dependencies": [
+    "http"
+  ],
+  "codeowners": [
+    "@ksjoberg"
+  ],
+  "iot_class": "cloud_polling",
+  "loggers": [
+    "boschtt"
+  ],
+  "version": "0.0.1"
+}

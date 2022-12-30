@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "auth": {
+        "title": "Authenticate BoschTT",
+        "description": "Provide your BoschTT credentials to give HomeAssistant access to your Bosch account and press **Submit** below."
+      }
+    },
+    "create_entry": {
+      "default": "[%key:common::config_flow::create_entry::authenticated%]"
+    },
+    "error": {
+      "no_token": "Not authenticated with Bosch",
+      "follow_link": "Please follow the link and authenticate before pressing Submit"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_account%]",
+      "missing_configuration": "[%key:common::config_flow::abort::oauth2_missing_configuration%]",
+      "access_token": "Unknown error generating an access token."
+    }
+  }
+}

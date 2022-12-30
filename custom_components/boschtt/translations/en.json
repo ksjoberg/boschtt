@@ -1,0 +1,23 @@
+{
+    "config": {
+        "abort": {
+            "access_token": "Unknown error generating an access token.",
+            "already_configured": "Account is already configured",
+            "missing_configuration": "The component is not configured. Please follow the documentation."
+        },
+        "create_entry": {
+            "default": "Successfully authenticated"
+        },
+        "error": {
+            "no_token": "Not authenticated with Bosch Thermotechnology"
+        },
+        "step": {
+            "auth": {
+                "description": "In order to obtain a required access token, enter your Bosch Thermotechnology credentials (used in HomeCom Easy app)",
+                "title": "Authenticate Bosch Thermotechnology",
+                "username": "BoschTT email",
+                "password": "BoschTT password"
+            }
+        }
+    }
+}
