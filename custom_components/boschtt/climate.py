@@ -103,7 +103,7 @@ async def async_setup_entry(
 
     tasks = []
     for heater in data_connection.get_devices():
-        tasks.append(heater.discover())
+        tasks.append(asyncio.create_task(heater.discover()))
     await asyncio.wait(tasks)
 
     devs = []
